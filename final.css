@@ -1,0 +1,159 @@
+/* .color {
+    /* background: radial-gradient(white, grey); */
+    /* background: white;
+}
+
+.main {
+    text-align: center;
+}
+
+.blue-square-container {
+    text-align: center;
+  }
+
+.blue-square {
+    background-color: rgb(142, 197, 230);
+    width: 500px;
+    height: 5px;
+    display: inline-block;
+  }
+
+.dotted {
+    border: 10px dotted black; 
+    border-style: none none dotted;
+    width: 600px; 
+    /* color: #fff; 
+    background-color: #fff;  */
+
+
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(236, 232, 232, 0.5)), url(campus.jpg); */
+    background-image: url(campus.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav li a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roberto", sans-serif;
+    font-size: 15px;
+    background-color: orange;
+}
+
+.main-nav li.active a {
+    border: 1px solid black;
+}
+
+.main-nav li a:hover{
+    border: 1px solid black;
+}
+
+/* .logo img{
+    width: 150px;
+    height:auto;
+    float: left;
+} */
+
+body{
+    font-family: monospace;
+}
+
+.row{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    width: 1200px;
+    margin-left: 100px;
+    margin-top: 0px;
+    /* padding-bottom: 100px 20px; */
+    /* background-color: orange; */
+    /* background-position: center; */
+}
+
+h1 {
+    color: black;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 275px;
+    background-color: orange;
+    font-family: Roboto, sans-serif;
+}
+
+.button{
+    margin-top: 30px;
+    margin-left: 440px;
+}
+
+.btn{
+    border: 1px solid black;
+    padding: 10px 30px;
+    color: black;
+    text-decoration: none;
+    margin-right: 5px;
+    margin-left:60px;
+    font-size: 13px;
+    text-transform: uppercase;
+    background-color: orange;
+}
+
+.btn-one {
+    background-color: orange;
+    font-family: Roboto, sans-serif;
+}
+
+.btn-two{
+    font-family: "Roboto", sans-serif;
+    background-color: orange;
+}
+
+.btn-two:hover{
+    background-color: rgb(231, 202, 148);
+    transition: all 0.5 ease-in;
+}
+
+h2{
+    color: black;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 400px;
+    background-color: orange;
+
+}
+
+/* #fullpage{
+    height: 99.6vh;
+    text-align: center;
+}
+  
+#fullpage section:nth-child(1) {
+      background: white;
+      margin-top: 100px;
+}
+
+.style {
+    font-size:30px
+} */
