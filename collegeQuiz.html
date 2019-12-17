@@ -8,43 +8,48 @@
     <link href="collegeQuiz.css" rel="stylesheet" type="text/css">
 </head>
 <body class="style">
-    <form name="costofcollege">
         <section><h2 class = "title">College Quiz</h2></section>
-                <label for="cost" class="style">Cost for One Year of College</label>
-                <input id="oneyearcost" type="text" name="oneyearcost" placeholder="type only numbers">
+        <div class="row">
+                <ul class="main-nav">
+                        <li class="active"><a href="index.html"> HOME </a></li>
+                        <li class="active"><a href="calculations.html"> ABOUT/CALCULATIONS </a></li>
+                        <li class="active"><a href="http://www.google.com" target="_blank"> GOOGLE </a></li>
+                </ul>
+                </div>
+        <form>
+                <label>Cost of one year of college</label>
+                <input type="text" id="n1" placeholder="type only numbers"/>
             <br>
             <br>
-                <label for="years" class="style">How many years do you plan on attending</label>
-                <input id="years" type="text" name="year" placeholder="type only numbers">
+                <label>How many years do you plan on attending</label>
+                <input type="text" id="n2" placeholder="type only numbers"/>
             <br>
             <br>
-                <label for="fasfa" class="style">Do you plan to apply FASFA or finacial aid at the college</label>
-                    <select name="fasfa">
-                    <option value="select">Select</option>
-                    <option value="yes">Yes</option>
-                    <option value="no">No</option>
+                <label>How many in your household attend college</label>
+                <input type="text" id="n3" placeholder="type only numbers"/>
+            <br>
+            <br>
+                <label>How many siblings do you have</label>
+                <input type="text" id="n4"placeholder="type only numbers"/>
+            <br>
+            <br>
+                <label>Do you plan to apply for FASFA</label>
+                <select id="operators">
+                        <option value ="Select">Select</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
                 </select>
-            <br>
-            <br>
-                <label for="married" class="style">Are you married or have kids</label>
-                    <select name="married">
-                    <option value="select">Select</option>
-                    <option value="yes">Yes</option>
-                    <option value="no">No</option>
-                </select>
-            <br>
-            <br>
-                <label for="family" class="style">How many are in your household are attending college</label>
-                <input id="family" type="text" name="family" placeholder="type only numbers">
-            <br>
-            <br>
-            <button id="Submit">Submit</button>
-            <br>
-            <br>
+        </form>
+        <br>
+                    <button class="calculateButton" onclick="calc();">Calculate My Cost</button>
+                    <br>
+                    <br>
+                    <input class="box" type="text" id="result"/>
     </form>
-    <img src = https://cfa.fsu.edu/wp-content/uploads/2019/01/header-Westcott-1024x359.jpg>
-           
+    <script src="collegeQuiz.js"></script>  
+    <br>
+    <br>
+    <img width="900" height="290" src = https://cfa.fsu.edu/wp-content/uploads/2019/01/header-Westcott-1024x359.jpg>
 </body>
 </html>
-
 

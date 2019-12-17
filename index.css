@@ -1,3 +1,4 @@
+/* This is the css I tried to use prior of figuring out the padding and the buttons */
 /* .color {
     /* background: radial-gradient(white, grey); */
     /* background: white;
@@ -40,34 +41,53 @@ header {
     background-position: center;
 }
 
+/* All the main classes are associated with the 3 navigations buttons */
+
 .main-nav{
-    float: right;
-    list-style: none;
-    margin-top: 40px;
+    /* float: right; */
+    position: fixed;
+    right: 10px;
+    /* list-style: none; */
+    /* margin-top: 40px;   */
+    /* moves the three buttons down */
+
 }
 
-.main-nav li {
-    display: inline-block;
-}
+ .main-nav li {    
+    /* three buttons are no longer inline */
+    display: inline-block; 
+} 
 
-.main-nav li a {
+/* .main-nav li a {     */
+    /* three buttons are no longer inline */
+    /* display: inline-block; 
+} */
+
+.main-nav li a {    
+    /* three buttons styling */
     color: black;
     text-decoration: none;
     padding: 5px 20px;
-    font-family: "Roberto", sans-serif;
-    font-size: 15px;
+    font-family:Comic Sans, Comic Sans MS, cursive;
+    font-weight: 800;
+    font-size: 20px;
     background-color: orange;
-}
+    margin-top: 37px;
+} 
 
 .main-nav li.active a {
-    border: 1px solid black;
+    border: 2px solid black;
+    display: inline-block; 
+    
 }
 
 .main-nav li a:hover{
     border: 1px solid black;
+    background-color: rgb(231, 202, 148);
+    transition: all 0.5 ease-in;
 }
 
-/* .logo img{
+/* .logo img{ NOOO
     width: 150px;
     height:auto;
     float: left;
@@ -87,27 +107,30 @@ body{
     width: 1200px;
     margin-left: 100px;
     margin-top: 0px;
-    /* padding-bottom: 100px 20px; */
-    /* background-color: orange; */
-    /* background-position: center; */
+    /* padding-bottom: 100px 20px; NOOO */
+    /* background-color: orange; NOOO */
+    /* background-position: center; NOOO*/
 }
 
-h1 {
-    color: black;
+ h1 { 
+    color: black; 
     text-transform: uppercase;
-    font-size: 70px;
+     font-size: 70px;
     text-align: center;
     margin-top: 275px;
     background-color: orange;
-    font-family: Roboto, sans-serif;
-}
+    font-family:Comic Sans, Comic Sans MS, cursive;
+    border: 2px solid black;
+} 
 
-.button{
+/* The rest of the css had to do with the College Quiz button */
+
+.button{ 
     margin-top: 30px;
     margin-left: 440px;
-}
+} 
 
-.btn{
+.btn{ 
     border: 1px solid black;
     padding: 10px 30px;
     color: black;
@@ -119,14 +142,20 @@ h1 {
     background-color: orange;
 }
 
-.btn-one {
+/* .btn-one { NOOO
     background-color: orange;
-    font-family: Roboto, sans-serif;
-}
+    font-family: Comic Sans, Comic Sans MS, cursive;
+} */
 
 .btn-two{
-    font-family: "Roboto", sans-serif;
+    /* font-family: Comic Sans, Comic Sans MS, cursive; NOOOO */
     background-color: orange;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family:Comic Sans, Comic Sans MS, cursive;
+    font-weight: 800;
+    font-size: 20px;
+    border: 2px solid black;
 }
 
 .btn-two:hover{
@@ -144,16 +173,24 @@ h2{
 
 }
 
-/* #fullpage{
+/* #fullpage{ NOO
     height: 99.6vh;
     text-align: center;
 }
   
-#fullpage section:nth-child(1) {
+#fullpage section:nth-child(1) { NOO
       background: white;
       margin-top: 100px;
 }
 
-.style {
+.style { NOOO
     font-size:30px
 } */
+
+/* color: black;    NOOO
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family:Comic Sans, Comic Sans MS, cursive;
+    font-weight: 800;
+    font-size: 20px;
+    background-color: orange; */
